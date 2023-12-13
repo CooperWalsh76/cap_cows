@@ -12,8 +12,8 @@ entity Cows
 {
     key ID : Integer;
     name : String;
-    height : Decimal(3,3);
-    weight : Decimal(3,3);
+    height : Decimal(2,2);
+    weight : Decimal(2,2);
     age : Integer;
     pastures : Association to one Pastures;
 }
